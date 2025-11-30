@@ -1,0 +1,285 @@
+* { box-sizing: border-box; }
+
+nav {
+  width: 1100px;
+  position: relative;
+  margin-top: 20%;
+  height: 65px;
+}
+#blackBar {
+  background: black;
+  height: 65px;
+  position: relative;
+  display: flex;
+}
+
+#greyBar { height: 10px; background: grey; position: relative; }
+
+#rcblogo{
+  position: absolute;
+  top: -19px;
+  left: 20px;
+  height: 100px;
+  transform: rotateY(59deg);
+}
+
+#blackBar .team {
+  color: #fff;
+  font-size: 22px;
+  font-weight: bold;
+  margin-left: 96px;
+  margin-top: 14px;
+}
+#small{
+  color: #cccccc;
+  position: absolute;
+  margin-top: 45px;
+  margin-left: 96px;
+}
+#big{
+  color: #cccccc;
+  position: absolute;
+  margin-top: 45px;
+  margin-left: 108px;
+  transform: skew(-10deg)
+}
+#score{
+  position: absolute;
+  width: 100px;
+  height: 30px;
+  background-color: #ff0008;
+  margin-left: 160px;
+  margin-top: 7px;
+  display: flex;
+  align-items: center;
+
+}
+#score .run{
+    color: #fff;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 6px;
+}
+#overs{
+  position: absolute;
+  color: #cccccc;
+  margin-left: 122px;
+  margin-top: 3px;
+  font-size: 25px;
+  transform: skew(-10deg)
+}
+#tag{
+  color: #fff;
+  margin-top: 40px;
+  margin-left: 63px;
+  font-weight: bold;
+  font-size: 22px;
+}
+#name{
+  background-color: #f60010;
+  width: 288px;
+  height: 65px;
+  margin-left: 26px;
+  padding-left: 15px;
+  display: inline-block;
+}
+#max{
+  color: #cccccc;
+  font-weight:600;
+  font-size: 25px;
+  display: inline-block;
+  transform: skewX(-8deg);
+  letter-spacing: -3.5px;
+}
+#du{
+  color: #cccccc;
+  font-weight:600;
+  font-size: 25px;
+  display: inline-block;
+  transform: skewX(-8deg);
+  position: absolute;
+  display: block;
+  margin-top:6px;
+  margin-left: 10px;
+}
+#duu{
+  color: #cccccc;
+  font-weight:600;
+  font-size: 25px;
+  display: inline-block;
+  transform: skewX(-8deg);
+  position: absolute;
+  display: block;
+  margin-top:6px;
+  margin-left: 40px;
+  letter-spacing: -2px;
+}
+#balla{
+  margin-left: -248px;
+  margin-top: 42px;
+  height: 26px;
+  transform: rotateX(20deg);
+  position: absolute;
+}
+#maxsco{
+  color: #cccccc;
+  font-weight: bold;
+  font-size: 30px;
+  margin-left: 90px;
+}
+#maxball{
+   color: #cccccc;
+  font-size: 24px;
+  display:inline-block;
+  position: absolute;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+#dusco{
+color: #cccccc;
+  font-weight: bold;
+  position: absolute;
+  font-size: 30px;
+  margin-left: -28px;
+  margin-top: 35px;
+}
+#duball{
+color: #cccccc;
+  font-size: 24px;
+  display:inline-block;
+  position: absolute;
+  margin-left: 7px;
+  margin-top: 40px;
+}
+#toss{
+  width: 100px;
+  height: 65px;
+  background-color: orangered;
+}
+#tosstext{
+  position: absolute;
+  margin-left: 25px;
+  margin-top: 8px;
+  font-size: 20px;
+  transform: skew(-8deg);
+  letter-spacing: -2px;
+}
+#tosslsg{
+  position: absolute;
+  font-weight: bolder;
+  font-size: 28px;
+  margin-left: 22px;
+  margin-top: 36px;
+  transform: skew(-8deg);
+  letter-spacing: -2px;
+}
+#blue{
+  width: 246px;
+  height: 65px;
+  background-color: #26295E;
+}
+#bishnoi{
+  position: absolute;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  transform: skew(-6deg);
+  margin-left: 4px;
+  margin-top: 6px;
+}
+#balls{
+  display: flex;
+  position: absolute;
+  margin-top: 41px;
+  gap: 2px;
+  padding-left: 4px;
+}
+#ball1{
+  background-color: yellowgreen;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+#ball2{
+  background-color: yellowgreen;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+}
+#ball3{
+  background-color: yellowgreen;
+  width: 20px;
+  height: 20px;
+}
+#ball4{
+  background-color: yellowgreen;
+  width: 20px;
+  height: 20px;
+}
+#ball5{
+  background-color: yellowgreen;
+  width: 20px;
+  height: 20px;
+}
+#ball6{
+  background-color: yellowgreen;
+  width: 20px;
+  height: 20px;
+}
+#ballno1{
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: black;
+  margin-top: 4px;
+}
+#ballno2{
+  font-weight: bold;
+}
+#bishnover{
+  color: #fff;
+  position: absolute;
+  font-weight: bolder;
+  font-size: 30px;
+  margin-left: 131px;
+  transform: skew(-7deg);
+}
+#bishn3over{
+  font-size: 24px;
+  color: #fff;
+  position: absolute;
+  margin-left: 194px;
+  margin-top: 3px;
+  font-weight: bold;
+  transform: skew(-7deg);
+}
+#lsglogo{
+  position: absolute;
+  margin-left: 490px;
+  height: 75px;
+  transform: rotateY(59deg);
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50px;
+}
+#wicket{
+  margin-top: 11px;
+}
+#six{
+  margin-top: 11px;
+}
+/* style.css */
+.overlayMode {
+  background-color: #C71585 !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  color: black;
+  font-weight: bold;
+  transition: all 5s ease-in;
+}
